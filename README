@@ -1,0 +1,33 @@
+1. Wprowadzenie:
+
+Projekt przedstawia bibliotekę do obsługi typowych operacji na macierzach. Biblioteka została
+stworzona w oparciu o jedną klasę szablonową Matrix, a cały projekt dzieli się na trzy pliki. W pliku
+nagłówkowym Matrix.hpp znajduje się ogólna deklaracja klasy, jej pól oraz metod. W pliku źródłowym
+Matrix.cpp znajduje się implementacja wszystkich metod, przedstawiająca warunki w kodzie do zastosowania
+danej operacji. Ostatnim jest plik main.cpp który służy do swobodnego wykonywania wybranej operacji. Został
+stworzony w celu sprawdzenia poprawności działania biblioteki.
+
+2. Zastosowania projektu:
+Głównym zastosowaniem projektu jest dokonywanie obliczeń przez użytkownika. Biblioteka ta
+pozwala na znaczne usprawnienie działań oferując 13 różnych operacji do wykonania. Użytkownik ma
+możliwość łatwego stworzenia swojej macierzy A oraz B wybierając rozmiar macierzy oraz wypełniając ją
+rząd po rzędzie dowolnymi liczbami. Korzystając z takiej biblioteki możemy usprawnić process nauki
+rachunków na macierzach sprawdzając wynik wykonanego wcześniej przez siebie zadania.
+
+3. Zaimplementowane klasy:
+Biblioteka ta opiera się na jednej klasie szablonowej Matrix. Zawiera ona podstawową funkcjonalność
+operacji na macierzach. Taką macierz można zbudować poprzez podanie rozmiaru wierszy i kolumn oraz
+wypełnienie jej swoimi liczbami. Po utworzeniu takiego obiektu możliwe jest wykonanie operacji takich
+jak:
+- Dodawanie, odejmowanie, mnożenie dwóch macierzy
+- Obliczanie wyznacznika macierzy A
+- Macierz transponowana A
+- Mnożenie macierzy A przez scalar
+- Uzyskiwanie dostępu do wybranej komórki macierzy
+- Odczyt wybrane
+- Dodawanie oraz usuwanie wybranej kolumny lub wiersza macierzy
+
+4. Kompilacja:
+W celu uruchomienia programu należy mieć pod ręką dostęp do dowolnego kompilatora. W moim
+przypadku był to kompilator w środowisku Visual Studio Code. Należy skopiować kody z Matrix.hpp,
+Matrix.cpp oraz main.cpp I nacisnąć przycisk RUN, który uruchomi program.
